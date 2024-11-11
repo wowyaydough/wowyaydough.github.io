@@ -1,1 +1,366 @@
-<!doctype html><html lang="kr"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><meta property="og:type" content="website"><meta property="og:url" content="https://ayodough.mycafe24.com/"><meta property="og:description" content="웹퍼블리셔 취업을 위한 개인 포트폴리오"><meta property="og:keywords" content="개인포트폴리오 개인홈페이지"><meta property="og:title" content="황도연 개인홈페이지"><meta name="description" content="웹퍼블리셔 취업을 위한 개인 포트폴리오"><meta name="keywords" content="황도연 개인포트폴리오 개인홈페이지"><meta name="http-equiv" content="5;url=https://wowyaydough.github.io/ayodough/"><title>A-yo DaY!</title><link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon"><!--[if IE]><link rel="icon" href="img/logo.jpg" type="image/x-icon"><![endif]--><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet"><script defer="defer" src="/js/chunk-vendors.c71503b0.js"></script><script defer="defer" src="/js/app.cd183e0e.js"></script><link href="/css/app.e3145033.css" rel="stylesheet"><link rel="icon" type="image/svg+xml" href="/img/icons/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="/img/icons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/img/icons/favicon-16x16.png"><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#4DBA87"><meta name="apple-mobile-web-app-capable" content="no"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="personal-project"><link rel="apple-touch-icon" href="/img/icons/apple-touch-icon-152x152.png"><link rel="mask-icon" href="/img/icons/safari-pinned-tab.svg" color="#4DBA87"><meta name="msapplication-TileImage" content="/img/icons/msapplication-icon-144x144.png"><meta name="msapplication-TileColor" content="#000000"></head><body><main><div id="app"></div></main></body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doyeon's Portfolio</title>
+    <meta name="msapplication-TileColor" content="#2b5797" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+   
+  </head>
+
+  <body>
+    <header class="gnb">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="gnb-wrapper">
+              <div class="gnb-left">
+                <h1 class="logo gnb-txt-button">
+                  <a href="/"> Doyeon's Homepage </a>
+                </h1>
+
+                <button class="gnb-menu-button sm-only" aria-label="open menu">
+                  <i class="ic-Menu"></i>
+                </button>
+              </div>
+
+              <div class="gnb-right sm-hidden">
+                <nav class="gnb-nav">
+                  <h2 class="visually-hidden">menu</h2>
+                  <ul class="button-group gnb-nav-list">
+                    <li class="gnb-nav-item gnb-txt-button">
+                      <a href="#about" aria-label="go to about page"> About </a>
+                    </li>
+                    <!-- <li class="gnb-nav-item gnb-txt-button">
+                      <a href="/" aria-label="go to skill page"> Skill </a>
+                    </li> -->
+                    <li class="gnb-nav-item gnb-txt-button">
+                      <a href="#portfolio" aria-label="go to portfolio page">
+                        Portfolio</a
+                      >
+                    </li>
+                    <li class="gnb-nav-item gnb-txt-button gnb-mode-change">
+                      <button
+                        type="button"
+                        aria-label="change mode from light to dark"
+                        class="gnb-mode-change-btn"
+                      >
+                        Dark
+                      </button>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- title -->
+    <section class="title">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="title-wrapper">
+              <h2 class="visually-hidden">title</h2>
+              <div class="title-content">
+                <p class="main-text main-text-top">나답게, 새롭게</p>
+                <p class="main-text main-text-bottom">오늘을 행복하게</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About & contact  -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="about-wrapper">
+              <h2 class="visually-hidden">about</h2>
+
+              <div class="about-content">
+                <div class="about-content-img">
+                  <img src="./../assets/img/image.jpg" alt="여자사진" />
+                </div>
+
+                <ul class="about-content-text-list">
+                  <li class="about-content-text-list-item">
+                    <p>이름 : 황도연</p>
+                  </li>
+                  <li class="about-content-text-list-item">
+                    <p>교육과정 : 이젠모란 웹퍼블리셔 5개월</p>
+                  </li>
+                  <li class="about-content-text-list-item">
+                    <p class="email">E-mail : makemyownway@naver.com</p>
+                  </li>
+                  <li>
+                    <li class="about-content-text-list-item">
+                      <p>
+                        Go to Github
+                        <a
+                        href="https://github.com/wowyaydough/wowyaydough.github.io"
+                        style="color: blue"
+                        >Homepage</a
+                      >
+                        </p>
+                      </li>
+                    <ul class="about-content-skill-list">
+                      <li class="about-content-skill-list-item html">
+                        <a href="https://github.com/wowyaydough/wowyaydough.github.io/blob/main/index.html"
+                          ><img src="./assets/img/skill/html.png" alt=""
+                        /></a>
+                      </li>
+                      <li class="about-content-skill-list-item css">
+                        <a href="/"
+                          ><img src="./assets/img/skill/css.png" alt=""
+                          />
+                        </a>
+                      </li>
+                      <li class="about-content-skill-list-item javascript">
+                        <a href="https://github.com/wowyaydough/wowyaydough.github.io/tree/main/js"
+                          >
+                          <img src="./assets/img/skill/js.png" alt="" />
+                        </a>
+                      </li>
+                      <li class="about-content-skill-list-item sass">
+                        <a href=""
+                          ><img src="./assets/img/skill/ss.png" alt=""
+                        /></a>
+                      </li>
+                      <li class="about-content-skill-list-item">
+                        <img src="./assets/img/skill/vue.png" alt="" />
+                      </li>
+                      <li class="about-content-skill-list-item">
+                        <a href="./assets/html/nuxt.html"
+                          ><img src="./assets/img/skill/nuxt.png" alt=""
+                        /></a>
+                      </li>
+                    </ul>
+                  </li>
+                  <!-- <li class="about-content-text-list-item">
+                    <p>
+                      안녕하세요, 저는 황도연입니다. 웹퍼블리셔를 지향하며
+                      역량을 향상시키기 위해 지식을 쌓고 경험을 쌓아가고
+                      있습니다. 웹사이트를 구축하고 관리하는 과정에서 발생하는
+                      다양한 문제들을 해결하며 성장하고 있습니다.
+                    </p>
+                  </li> -->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- skill-->
+    <section class="skill visually-hidden">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="skill-wrapper">
+              <div class="sass">
+                <!-- <div class="code">
+                  <p>색상 변수 지정</p>
+                  <p>$primary: #3f4150;</p>
+                  
+                  <p>텍스트 옵션 mixin 설정</p>
+                  <p>$font-size-12: 12px; </br>
+                    $line-height-12: 16px;</br>
+                    $letter-spacing-12: -0.005em;</p>
+
+                    <p>@mixin text-style-12{
+                      font-size:12px;
+                      line-height: 16px;
+                      letter-spacing: -0.005em}</p>
+  
+                      <p>@mixin text-style ($size, $color: false)
+                        @if(size == 12){
+                          @include text-style-12;
+                        }</p>
+                      
+                        <p>mixin 사용</p>
+                        <p>@include text-style(12, $primary)</p>
+                </div> -->
+                <div class="show">
+                  <!-- code 적용 화면 -->
+                  <ul>
+                    <li>
+                      <p>적용 전</p>
+                    </li>
+                    <li>
+                      <p class="modify">적용 후</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="js">
+                <p><a>캐러셀</a></p>
+                <!-- nuxt 적용, 인풋 폼 글자수 제한, 초과시 빨간색 -->
+                <!-- 탭 전환 -->
+                <!-- 이름 마스킹 처리 -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="portfolio-wrapper">
+              <h2 class="visually-hidden">portfolio</h2>
+              <div class="portfolio-content">
+                <div class="page-tab-wrapper">
+                  <ul class="tab-list">
+                    <li class="tab-item">
+                      <button class="portfolio-click-btn  tab-btn">Slide</button>
+                    </li>
+                    <li class="tab-item">
+                      <button class="portfolio-click-btn tab-btn">
+                        Sort array
+                      </button>
+                    </li>
+                  </ul>
+                  <div class="tab-page-content">
+                      <!-- slide -->
+                    <div class="portfolio-slide-wrapper tab-page">
+                      <div class="portfolio-slide">
+                        <ul class="portfolio-list">
+                          <li class="portfolio-item">
+                            <a href="https://wowyaydough.github.io/Asty/"
+                              ><img src="./assets/img/portfolio/asty.jpg" alt=""
+                            />
+                          </a>
+                          </li>
+                          <li class="portfolio-item">
+                            <a href="https://wowyaydough.github.io/BaskinRobbins/"
+                              ><img src="./assets/img/portfolio/BR.jpg" alt=""
+                            /></a>
+                          </li>
+                          <li class="portfolio-item">
+                            <a href="https://wowyaydough.github.io/Etude"
+                              ><img src="./assets/img/portfolio/Etude.jpg" alt=""
+                            /></a>
+                          </li>
+                          <li class="portfolio-item">
+                            <a href="https://wowyaydough.github.io/gjcity"
+                              ><img src="./assets/img/portfolio/gjcity.jpg" alt=""
+                            /></a>
+                          </li>
+                          <li class="portfolio-item">
+                            <a href="https://wowyaydough.github.io/ISTEC"
+                              ><img src="./assets/img/portfolio/ISTEC.jpg" alt=""
+                            /></a>
+                          </li>
+                          <li class="portfolio-item">
+                            <a href="https://wowyaydough.github.io/pf4_hitejinro"
+                              ><img
+                                src="./assets/img/portfolio/hitejinro.jpg"
+                                alt=""
+                            /></a>
+                          </li>
+                    
+                        </ul>
+                      </div>
+
+                      <div class="portfolio-pagination">
+                        <ul class="portfolio-pagination-btn-list">
+                          <ul class="list-of-number">
+                            <li class="portfolio-pagination-btn-item">
+                              <button class="portfolio-btn-one pagination-btn" type="button">
+                                1
+                              </button>
+                            </li>
+                            <li class="portfolio-pagination-btn-item">
+                              <button class="portfolio-btn-two pagination-btn" type="button">
+                                2
+                              </button>
+                            </li>
+                            <li class="portfolio-pagination-btn-item">
+                              <button class="portfolio-btn-three pagination-btn" type="button">
+                                3
+                              </button>
+                            </li>
+                            <li class="portfolio-pagination-btn-item">
+                              <button class="portfolio-btn-four pagination-btn" type="button">
+                                4
+                              </button>
+                            </li>
+                            <li class="portfolio-pagination-btn-item">
+                              <button class="portfolio-btn-five pagination-btn" type="button">
+                                5
+                              </button>
+                            </li>
+                            <li class="portfolio-pagination-btn-item">
+                              <button class="portfolio-btn-six pagination-btn" type="button">
+                                6
+                              </button>
+                            </li>
+                          </ul>
+                          <ul class="prevnext">
+                            <li class="portfolio-pagination-btn-item">
+                              <button class="prev" type="button"></button>
+                            </li>
+                            
+                            <li class="portfolio-pagination-btn-item">
+                              <button class="next" type="button"></button>
+                            </li>
+                          </ul>
+                          
+                        </ul>
+                      </div>
+
+                      <div class="show-code-wrapper">
+                        <div>
+                          <a href="/" class="show-code portfolio-click-btn" target="_blank">View code</a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- array 상품 정렬버튼 -->
+                    <div class="show-code-modal tab-page hide">
+                      <div class="bg-black">
+                        <div class="bg-white">
+                          <div class="modal-content">
+                            <p>hello</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                
+                                      <!-- 시간 지나면 사라지는 배너 settimeout -->
+                        <!-- for문으로 탭기능 -->
+                         <!-- 다방 카피 -->
+                          <!-- 인스타그램 & 게시글 작성 글자수제한 -->
+                        
+                        
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="./script.js">
+  </script>
+</html>
