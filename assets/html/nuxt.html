@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS _ masking name</title>
+  </head>
+  <body>
+    <div class="info">
+      <p class="info-name">{{ item.MASKING_NAME }}</p>
+      <p class="info-title">{{ item.CONTENTS_NAME }}</p>
+      <p class="info-rate">
+        <i
+          class="icon fi-star-fill is-fill"
+          v-for="star in Number(item.SCORE)"
+        />
+      </p>
+      <p class="info-cont">{{ item.REVIEW_CONTENTS }}</p>
+    </div>
+
+    <script>
+      const changeMaskUserName = (name) => {
+        return name[0] + '*'.repeat(name.length - 2) + name.slice(-1)
+      }
+    </script>
+  </body>
+</html>
